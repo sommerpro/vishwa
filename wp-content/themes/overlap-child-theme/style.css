@@ -1,0 +1,91 @@
+/*
+Theme Name: Vishwa Aroma
+Description: Child theme de Overlap, customizado para Terra Flor Aromaterapia.
+Author: Wyde
+Template: overlap
+Version: 1.0.0
+*/
+/*
+/ Extra small devices /      @media only screen and (max-width: 599px) {
+/ Small devices /            @media only screen and (max-width: 767px) {
+/ Medium Small devices /     @media only screen and (max-width: 991px) {
+/ Small devices (Tablets) /  @media only screen and (min-width: 768px) {
+/ Medium devices /           @media only screen and (min-width: 992px) {
+/ Large devices Desktops /   @media only screen and (min-width: 1200px) {
+/ Medium Large Desktops /    @media only screen and (min-width: 1400px) {
+/ Extra Large Desktops /     @media only screen and (min-width: 1663px) {
+
+/* Full version of Navigation /   @media only screen and (min-width: 1080px) {
+/* Mobile version of Navigation / @media only screen and (max-width: 1079px) {
+*/
+
+
+#footer {
+	background: #fff;
+	box-shadow: 0px -3px 3px rgba(0, 0, 0, 0.05);
+}
+
+.footer-v1 {
+	padding: 10px 0;
+}
+
+#toplink-wrapper {
+	width: 35px;
+	height: 35px;
+	background-color: #93ea6a;
+}
+
+#toplink-wrapper i {
+	margin-top: 0px;
+	color: #555555;
+}
+
+.custom-heading-main-title h1,
+.custom-heading-main-title h2 {
+	font-size: 25px;
+	line-height: 25px;
+	padding: 15px 0 0;
+	font-weight: normal;
+}
+
+.custom-heading-main-title h3,
+.custom-heading-main-title h4 {
+	font-size: 14px;
+	line-height: 14px;
+	text-transform: uppercase;
+	color: #619187;
+	padding: 0;
+	font-weight: normal;
+}
+
+.nome-cientifico {
+	font: bold 12px Arial, Verdana;
+	text-transform: capitalize;
+	margin: 0px;
+}
+
+.secao h3 {
+	font: bold 18px Arial, Verdana;
+	text-transform: uppercase;
+	margin: 30px 0 15px;
+}
+
+.secao p {
+	font: 14px/23px Arial, Verdana;
+	margin: 0 0 8px;
+}
+
+.subtitulo-item {
+	font: bold 16px Arial, Verdana;
+	text-transform: none;
+	margin-top: -10px;
+}
+
+a.legenda {
+	font: bold 16px Courier New;
+	background-color: #f0f0f0;
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	padding: 4px 8px;
+	margin: 3px 0 0;
+}

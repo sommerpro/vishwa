@@ -1,0 +1,130 @@
+/**
+ * Admin Page styles.
+ *
+ * @since   1.0.0
+ * @version 2.1.0
+ */
+.va-admin {
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 1em 0;
+  width: 100%;
+}
+
+.va-admin .tab-title {
+  font-size: 1.4em;
+  font-weight: normal;
+  line-height: 1.4em;
+}
+.va-admin .ui-widget-content .ui-state-active {
+  border: 1px solid #474d54;
+  background: #5d666f;
+}
+
+.va-admin-messages {
+  padding: 0.7em 0;
+}
+
+.va-admin .ui-tabs .ui-tabs-panel {
+  padding: 0.2em 1.4em;
+}
+
+/* Configurações */
+.va-admin .ui-widget select,
+.va-admin .ui-widget textarea,
+.va-admin .ui-widget input[type="url"],
+.va-admin .ui-widget input[type="email"],
+.va-admin .ui-widget input[type="text"] {
+  display: block;
+  margin-top: 0px;
+  width: 400px;
+}
+.va-admin .ui-widget input[type="number"] {
+  display: block;
+  margin-top: 0px;
+  width: 100px;
+}
+
+.va-admin .helper {
+  font-size: 9px;
+  margin-top: 5px;
+}
+
+.va-admin .row {
+  display: flex;
+  margin: 0px;
+  width: 100%;
+  clear: both;
+}
+.va-admin .row .col {
+  float: left;
+  min-height: 1px;
+}
+.va-admin .col-12 {
+  width: 100%;
+}
+.va-admin .col-11 {
+  width: 91.66666667%;
+}
+.va-admin .col-10 {
+  width: 83.33333333%;
+}
+.va-admin .col-9 {
+  width: 75%;
+}
+.va-admin .col-8 {
+  width: 66.66666667%;
+}
+.va-admin .col-7 {
+  width: 58.33333333%;
+}
+.va-admin .col-6 {
+  width: 50%;
+}
+.va-admin .col-5 {
+  width: 41.66666667%;
+}
+.va-admin .col-4 {
+  width: 33.33333333%;
+}
+.va-admin .col-3 {
+  width: 25%;
+}
+.va-admin .col-2 {
+  width: 16.66666667%;
+}
+.va-admin .col-1 {
+  width: 8.33333333%;
+}
+
+.va-admin .row .col select,
+.va-admin .row .col input[type="url"],
+.va-admin .row .col input[type="text"],
+.va-admin .row .col input[type="email"],
+.va-admin .row .col input[type="number"] {
+  width: 100%;
+  margin: 2px 0px 0px;
+  height: 25px;
+}
+.va-admin .row .col input[type="checkbox"] {
+  margin: 5px 0px 10px;
+  width: 25px;
+  height: 25px;
+  padding: 4px 4px !important;
+}
+.va-admin .row .col textarea {
+  width: 100%;
+  margin: 2px 0px 0px;
+  height: 200px;
+}
+.va-admin .row .col label {
+  cursor: default;
+}
+
+.va-admin .row .col .radio {
+  margin: 4px 0 0;
+}
+
+#app-construction input[type="text"] {
+  width: 80px;
+}

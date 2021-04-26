@@ -1,0 +1,29 @@
+#header-fixed .header-icon-left i { line-height: 54px; }
+#footer-fixed .footer-icon-left i, #footer-fixed .footer-icon-right i { line-height:40px; }
+
+@keyframes to-menu-index {
+	0%   { top:  116px;              left:   4px;             width: 257px; height:  65px; border-radius:   1%; }
+  40%  { top:  112px;              left: calc(100% - 80px); width: 105px; height: 105px; border-radius:  50%; }
+	70%  { top:  calc(100% - 136px); left: calc(100% - 80px); width: 105px; height: 105px; border-radius:  50%; }
+	100% { top:  204px;              left: calc(100% - 80px); width: 105px; height: 105px; border-radius:  50%; }
+}
+@keyframes to-menu-index-letter {
+	0%   { top:  204px; left: calc(100% - 80px); width: 105px;             height: 105px; border-radius:  50%; }
+  50%  { top:  107px; left: -17px;             width: 105px;             height: 105px; border-radius:  50%; }
+	100% { top:  300px; left:  48px;             width: calc(100% - 90px); height:  80px; border-radius:   1%; }
+}
+@keyframes to-form-of-use {
+	0%   { top:  220px;              left:  48px; width: calc(100% - 90px); height:  80px; border-radius:   1%; }
+	8%   { top:   57px;              left:  10px; width: calc(100% - 20px); height: 110px; border-radius:   1%; }
+	12%  { top:   57px;              left:  10px; width: calc(100% - 20px); height: 110px; border-radius:   1%; }
+	42%  { top:  calc(100% - 227px); left:  10px; width: calc(100% - 20px); height: 168px; border-radius:   1%; }
+	52%  { top:  calc(100% - 362px); left:  10px; width: calc(100% - 20px); height: 146px; border-radius:   1%; }
+	62%  { top:  calc(100% - 462px); left:  10px; width: calc(100% - 20px); height: 100px; border-radius:   1%; }
+	82%  { top:  397px;              left: -10px; width: 105px;             height: 105px; border-radius:  50%; }
+	94%  { top:  397px;              left:  40px; width: 105px;             height: 105px; border-radius:  50%; }
+	100% { top:  397px;              left: -10px; width: 105px;             height: 105px; border-radius:  50%; }
+}
+@keyframes to-form-of-use-bottom {
+	0%   { top:  395px;              left:            -10px; width: 105px; height: 105px; border-radius:  50%; }
+	100% { top:  calc(100% -  80px); left: calc(50% - 53px); width: 105px; height: 105px; border-radius:  50%; }
+}

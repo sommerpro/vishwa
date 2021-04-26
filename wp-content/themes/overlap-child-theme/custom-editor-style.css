@@ -1,0 +1,6 @@
+.nome-cientifico { font: bold 12px Arial, Verdana; text-transform: capitalize; margin: 0px; }
+.secao           { float:left; width: 80%; border: 1px solid; margin: 10px; padding: 10px 15px }
+.secao h3        { font: bold 18px Arial, Verdana; text-transform: uppercase; margin: 0 0 15px; }
+.secao h4        { font: bold 16px Arial, Verdana; text-transform: none; margin-top: -10px; }
+.secao p         { font: 14px/23px Arial, Verdana; margin: 0 0 8px; }
+a.legenda        { font: bold 16px Courier New; background-color: #f0f0f0; border: 1px solid #e0e0e0; border-radius: 4px; padding: 4px 8px; margin: 3px 0 0; }

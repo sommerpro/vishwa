@@ -1,0 +1,53 @@
+# ignore everything in the root.
+/*
+# except:
+!/.gitignore
+!/wp-content/
+!/app/
+!/appdev/
+
+# ignore everything in the "app" directory,
+/app/*
+# except:
+!/app/fonts/
+!/app/images/
+!/app/scripts/
+!/app/styles/
+# ignore:
+/app/images/itens/*
+/app/styles/*
+/app/scripts/*
+
+# ignore everything in the "appdev" directory,
+/appdev/*
+# except:
+!/appdev/fonts/
+!/appdev/images/
+!/appdev/scripts/
+!/appdev/styles/
+# ignore:
+/appdev/images/itens/*
+/appdev/styles/*
+/appdev/scripts/*
+
+# ignore everything in the "wp-content" directory,
+/wp-content/*
+# except:
+!/wp-content/plugins/
+!/wp-content/themes/
+
+# ignore everything in the "wp-content/plugins" directory,
+/wp-content/plugins/*
+# except:
+!/wp-content/plugins/vishwa-aroma/
+
+# ignore everything in the "wp-content/themes" directory,
+/wp-content/themes/*
+# except:
+!/wp-content/themes/overlap-child-theme/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+*.zip

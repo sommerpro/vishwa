@@ -1,0 +1,36 @@
+$(window).load(function () {
+	// Mostra aviso legal na primeira execução ou se houver mudança na versão do aplicativo
+	if ($.cookie('splashscreen') != '%versao%') {
+		if (window.location.href.indexOf('index') > -1) {
+			$(".aviso-legal").show();
+			$(".iniciar-guia").click(function (e) {
+				e.preventDefault();
+				$.cookie("splashscreen", '%versao%', {
+					expires: 360
+				});
+				$(".aviso-legal").hide();
+				$(".pesquisa-index").fadeIn(600);
+				$(".menu-index").fadeIn(600);
+				$(".open-left-sidebar").fadeIn(600);
+			});
+			$('.ver-tutorial').click(function () {
+				$.cookie("tutorial", '1', {
+					expires: 360
+				});
+				$.cookie("splashscreen", '%versao%', {
+					expires: 360
+				});
+			});
+		} else {
+			window.location.href = encodeURI('index.html');
+		}
+	} else {
+		$(".pesquisa-index").show();
+		if ($('.resposta-pesquisa').html() == '') {
+			$(".menu-index").show();
+		} else {
+			$(".menu-index").hide();
+		}
+		$(".open-left-sidebar").show();
+	}
+});

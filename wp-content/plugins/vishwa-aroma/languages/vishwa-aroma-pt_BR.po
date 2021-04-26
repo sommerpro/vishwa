@@ -1,0 +1,24 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Vishwa Aroma\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-02 14:52+0000\n"
+"PO-Revision-Date: 2021-04-26 13:32+0000\n"
+"Last-Translator: sommerpro <adriano@sommer.pro.br>\n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.1.1"
+
+#. Author of the plugin
+msgid "Adriano Sommer"
+msgstr "Adriano Sommer"
+
+#. Name of the plugin
+#. Description of the plugin
+msgid "Vishwa Aroma"
+msgstr "Vishwa Aroma"
